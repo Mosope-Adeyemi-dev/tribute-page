@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.tribute-whole {
+    background-color: white;
+    width: 40%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #efefef;
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        0 10px 0 -5px #eee,
+        0 10px 1px -4px rgba(0, 0, 0, 0.15),
+        0 20px 0 -10px #eee,
+        0 20px 1px -9px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+.tribute-title {
+    font-size: 100px;
+    margin: 4%;
+    padding: 0;
+    color: yellow;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tribute-intro-img {
+    width: 300px;
+    object-fit: contain;
+
+}
+
+.fr{
+    float: right;
+}
+.tribute-heading{
+    background-image: url('https://lh3.googleusercontent.com/proxy/xi2k0zFvAnKMuMNzpumC2n03lZoB4kLZQ1KzVum_7f-NM0ZIrLnyKQP0utGMuIA-gBlMg4dHQfffl3hmf-gGNnjClI-DVnqqTg_9pN4');
+  background-color: #cccccc;
+  background-repeat:repeat;
+  background-size:contain;
+  position: relative;
+
+}
+.tribute-img {
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tribute-cite {
+    padding: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tribute-name {
+    color: darkolivegreen;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media(max-width:414px) {
+    .tribute-whole {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .tribute-title {
+        font-size: 50px;
+        margin-top: 7%;
+        font-family: fantasy;
+    }
+
+    .tribute-intro-img {
+        width: 100%;
+    }
+}
+
+#my-details {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    float: right;
+}
